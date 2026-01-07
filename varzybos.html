@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NSK Santaka varžybų kalendorius ir rezultatai">
+
+    <title>Varžybos | NSK Santaka</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="NSK Santaka logo">
+                <span class="logo-text">NSK Santaka</span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Atidaryti meniu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Pradžia</a>
+                <a href="galerija.html" class="nav-link">Galerija</a>
+                <a href="varzybos.html" class="nav-link active">Varžybos</a>
+                <a href="treniruotes.html" class="nav-link">Treniruotės</a>
+                <a href="parama.html" class="nav-link">Parama</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Puslapio antraštė -->
+    <section class="section" style="padding-bottom: 2rem;">
+        <div class="container">
+            <h1>🏆 Varžybų kalendorius</h1>
+            <p style="color: var(--color-text-muted); max-width: 600px;">
+                Artėjančios ir praėjusios varžybos, kuriose dalyvauja mūsų klubo sportininkai.
+            </p>
+        </div>
+    </section>
+
+    <!-- Artėjančios varžybos -->
+    <section class="section section-alt" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="mb-3">📅 Artėjančios varžybos</h2>
+
+            <div class="schedule">
+                <div class="schedule-item animate-on-scroll">
+                    <div class="schedule-content text-center" style="padding: 3rem;">
+                        <span class="card-badge upcoming"
+                            style="font-size: 1rem; padding: 0.5rem 1rem; margin-bottom: 1rem;">ℹ️ Informacija
+                            ruošiama</span>
+                        <h3 class="schedule-title">Artimiausių varžybų informacija bus paskelbta netrukus</h3>
+                        <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                            Sekite naujienas mūsų svetainėje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Praėjusios varžybos -->
+    <section class="section">
+        <div class="container">
+            <h2 class="mb-3">🥇 Praėjusios varžybos ir rezultatai</h2>
+
+            <div class="schedule">
+                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
+                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
+                        <span class="schedule-day">13</span>
+                        <span class="schedule-month">GRU</span>
+                    </div>
+                    <div class="schedule-content">
+                        <span class="card-badge past">Praėjo</span>
+                        <h3 class="schedule-title">Lietuvos neįgaliųjų biliardo čempionatas</h3>
+                        <div class="schedule-meta">
+                            <span>📍 Kaunas</span>
+                            <span>📅 2025.12.13</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
+                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
+                        <span class="schedule-day">09</span>
+                        <span class="schedule-month">LAP</span>
+                    </div>
+                    <div class="schedule-content">
+                        <span class="card-badge past">Praėjo</span>
+                        <h3 class="schedule-title">Lietuvos neįgaliųjų šaudymo sporto čempionatas</h3>
+                        <div class="schedule-meta">
+                            <span>📍 Alytus</span>
+                            <span>📅 2025.11.09</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
+                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
+                        <span class="schedule-day">08</span>
+                        <span class="schedule-month">LAP</span>
+                    </div>
+                    <div class="schedule-content">
+                        <span class="card-badge past">Praėjo</span>
+                        <h3 class="schedule-title">Lithuania WSPS Grand prix</h3>
+                        <div class="schedule-meta">
+                            <span>📍 Alytus</span>
+                            <span>📅 2025.11.08</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
+                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
+                        <span class="schedule-day">05</span>
+                        <span class="schedule-month">BAL</span>
+                    </div>
+                    <div class="schedule-content">
+                        <span class="card-badge past">Praėjo</span>
+                        <h3 class="schedule-title">Bočios čempionatas</h3>
+                        <div class="schedule-meta">
+                            <span>📍 Alytus</span>
+                            <span>📅 2025.04.05</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kvietimas -->
+    <section class="section section-alt">
+        <div class="container text-center">
+            <h2>Nori dalyvauti varžybose?</h2>
+            <p style="max-width: 500px; margin: 0 auto 2rem;">
+                Susisiek su mumis ir sužinok, kaip prisijungti prie komandos ir dalyvauti Lietuvos bei tarptautinėse
+                varžybose.
+            </p>
+            <a href="treniruotes.html" class="btn btn-primary">Žiūrėti treniruočių tvarkaraštį</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NSK Santaka</h4>
+                    <p style="font-size: 0.875rem; color: var(--color-text-muted);">
+                        Neįgaliųjų sporto ir integracijos klubas
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigacija</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Pradžia</a></li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="varzybos.html">Varžybos</a></li>
+                        <li><a href="treniruotes.html">Treniruotės</a></li>
+                        <li><a href="parama.html">Parama</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kontaktai</h4>
+                    <ul class="footer-links">
+                        <li>📍 Kaunas, Lietuva</li>
+                        <li>📧 info@nsksantaka.lt</li>
+                        <li>📱 +370 682 41197 </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Parama</h4>
+                    <ul class="footer-links">
+                        <li><a href="parama.html">Skirti 2% GPM</a></li>
+                        <li><a href="parama.html#privati">Privati parama</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 NSK Santaka. Visos teisės saugomos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

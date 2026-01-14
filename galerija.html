@@ -57,32 +57,57 @@
         <div class="container">
 
             <!-- 2025 metai -->
-            <h2 class="mb-3">2025 metų renginiai</h2>
 
-            <div class="gallery mb-4">
-                <!-- Čia bus nuotraukos -->
-                <div class="gallery-item"
-                    style="background: linear-gradient(135deg, var(--color-secondary), #d4a017); display: flex; align-items: center; justify-content: center;">
-                    <div style="text-align: center; color: var(--color-text); padding: 2rem;">
+
+            <!-- Galerijos Kategorijos -->
+            <div id="gallery-categories" class="gallery mb-4">
+
+                <!-- Renginiai -->
+                <div class="gallery-item category-card" data-tag="renginiai"
+                    style="background: linear-gradient(135deg, var(--color-secondary), #d4a017); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                    <div class="card-content"
+                        style="text-align: center; color: var(--color-text); padding: 2rem; position: relative; z-index: 2;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">📷</div>
-                        <p style="font-size: 0.875rem; opacity: 0.9;">Nuotraukos bus įkeltos netrukus</p>
+                        <p style="font-size: 1.25rem; font-weight: 600;">Renginiai</p>
+                        <p style="font-size: 0.875rem; opacity: 0.9;">Klubo šventės ir susitikimai</p>
                     </div>
                 </div>
 
-                <div class="gallery-item"
-                    style="background: linear-gradient(135deg, var(--color-primary), #1e5631); display: flex; align-items: center; justify-content: center;">
-                    <div style="text-align: center; color: white; padding: 2rem;">
+                <!-- Varžybos -->
+                <div class="gallery-item category-card" data-tag="varzybos"
+                    style="background: linear-gradient(135deg, var(--color-primary), #1e5631); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                    <div class="card-content"
+                        style="text-align: center; color: white; padding: 2rem; position: relative; z-index: 2;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+                        <p style="font-size: 1.25rem; font-weight: 600;">Varžybos</p>
                         <p style="font-size: 0.875rem;">Varžybų akimirkos</p>
                     </div>
                 </div>
 
-                <div class="gallery-item"
-                    style="background: linear-gradient(135deg, var(--color-accent), #a32d20); display: flex; align-items: center; justify-content: center;">
-                    <div style="text-align: center; color: white; padding: 2rem;">
+                <!-- Treniruotės -->
+                <div class="gallery-item category-card" data-tag="treniruotes"
+                    style="background: linear-gradient(135deg, var(--color-accent), #a32d20); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                    <div class="card-content"
+                        style="text-align: center; color: white; padding: 2rem; position: relative; z-index: 2;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">🏋️</div>
-                        <p style="font-size: 0.875rem; opacity: 0.9;">Treniruočių nuotraukos</p>
+                        <p style="font-size: 1.25rem; font-weight: 600;">Treniruotės</p>
+                        <p style="font-size: 0.875rem; opacity: 0.9;">Kasdienė veikla</p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Peržiūros langas (iš pradžių paslėptas) -->
+            <div id="gallery-view" style="display: none;">
+                <div class="mb-3">
+                    <button id="back-to-categories" class="btn btn-secondary">
+                        ← Atgal į kategorijas
+                    </button>
+                    <span id="current-category-title" class="ms-3"
+                        style="font-weight: 600; font-size: 1.25rem; margin-left: 1rem;"></span>
+                </div>
+
+                <div id="gallery-container" class="gallery mb-4">
+                    <!-- Čia bus kraunamos nuotraukos -->
                 </div>
             </div>
 
@@ -129,6 +154,8 @@
                         <li>📍 Kaunas, Lietuva</li>
                         <li>📧 info@nsksantaka.lt</li>
                         <li>📱 +370 682 41197 </li>
+                        <li><a href="https://www.facebook.com/nsksantaka" target="_blank"
+                                style="color: inherit; text-decoration: none;">👤 Facebook</a></li>
                     </ul>
                 </div>
 
@@ -147,6 +174,7 @@
         </div>
     </footer>
 
+    <script src="js/gallery.js"></script>
     <script src="js/main.js"></script>
 </body>
 

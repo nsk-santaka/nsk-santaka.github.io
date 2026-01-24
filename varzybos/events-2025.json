@@ -1,0 +1,37 @@
+{
+  "year": 2025,
+  "events": [
+    {
+      "id": 1,
+      "name": "Bočios čempionatas",
+      "date": "2025-04-05",
+      "location": "Alytus",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 2,
+      "name": "Lithuania WSPS Grand prix",
+      "date": "2025-11-08",
+      "location": "Alytus",
+      "organizer": "WSPS",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 3,
+      "name": "Lietuvos neįgaliųjų šaudymo sporto čempionatas",
+      "date": "2025-11-09",
+      "location": "Alytus",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 4,
+      "name": "Lietuvos neįgaliųjų biliardo čempionatas",
+      "date": "2025-12-13",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    }
+  ]
+}

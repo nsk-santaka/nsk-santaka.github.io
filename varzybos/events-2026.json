@@ -1,0 +1,191 @@
+{
+  "year": 2026,
+  "events": [
+    {
+      "id": 1,
+      "name": "Respublikos greitųjų šachmatų čempionatas",
+      "date": "2026-02-07",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 2,
+      "name": "Respublikos žaibo šachmatų čempionatas",
+      "date": "2026-02-07",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 3,
+      "name": "Respublikos uždarų patalpų lengvosios atletikos čempionatas",
+      "date": "2026-03-07",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 4,
+      "name": "Respublikos bočios čempionatas",
+      "date": "2026-03-14",
+      "location": "Alytus",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 5,
+      "name": "Respublikos tinklinio sėdint čempionato I turas",
+      "date": "2026-03-21",
+      "endDate": "2026-03-22",
+      "location": "Marijampolė",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 6,
+      "name": "Lietuvos orientavimosi sporto čempionatas",
+      "date": "2026-03-28",
+      "endDate": "2026-03-29",
+      "location": "Druskininkai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 7,
+      "name": "Respublikos trijulių (3x3) krepšinio vežimėliuose čempionato I turas",
+      "date": "2026-04-11",
+      "endDate": "2026-04-12",
+      "location": "Druskininkai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 8,
+      "name": "Respublikos plaukimo čempionatas",
+      "date": "2026-04-18",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 9,
+      "name": "Respublikos stalo teniso čempionatas",
+      "date": "2026-05-09",
+      "endDate": "2026-05-10",
+      "location": "Tauragė",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 10,
+      "name": "Respublikos paplūdimio tinklinio čempionatas",
+      "date": "2026-05-23",
+      "location": "Marijampolė",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 11,
+      "name": "Respublikos lengvosios atletikos čempionatas",
+      "date": "2026-06-13",
+      "location": "Birštonas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 12,
+      "name": "Respublikos peilių svaidymo čempionatas",
+      "date": "2026-06-13",
+      "location": "Birštonas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 13,
+      "name": "Šaudymo Lietuvos čempionatas",
+      "date": "2026-08-24",
+      "endDate": "2026-08-28",
+      "location": "Druskininkai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 14,
+      "name": "Respublikos šaudymo iš lanko čempionatas",
+      "date": "2026-09-05",
+      "location": "Alytus",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 15,
+      "name": "Respublikos šaškių čempionatas",
+      "date": "2026-09-12",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 16,
+      "name": "Respublikos tinklinio sėdint čempionato II turas",
+      "date": "2026-10-03",
+      "endDate": "2026-10-04",
+      "location": "Anykščiai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 17,
+      "name": "Respublikos 5x5 ir trijulių (3x3) vežimėlių krepšinio čempionato II turas",
+      "date": "2026-10-16",
+      "endDate": "2026-10-18",
+      "location": "Druskininkai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 18,
+      "name": "Taikomosios fizinės veiklos seminaras",
+      "date": "2026-11-11",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 19,
+      "name": "Aktyvaus poilsio stovykla patalpose ir žaidynės",
+      "date": "2026-11-14",
+      "endDate": "2026-11-15",
+      "location": "Anykščiai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 20,
+      "name": "Respublikos plaukimo trumpo baseino (25m) čempionatas",
+      "date": "2026-11-21",
+      "location": "Druskininkai",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 21,
+      "name": "Respublikos biliardo (Pulo) čempionatas",
+      "date": "2026-12-05",
+      "endDate": "2026-12-06",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    },
+    {
+      "id": 22,
+      "name": "Respublikos smiginio čempionatas",
+      "date": "2026-12-05",
+      "endDate": "2026-12-06",
+      "location": "Kaunas",
+      "organizer": "LNSF",
+      "medals": { "gold": 0, "silver": 0, "bronze": 0 }
+    }
+  ]
+}

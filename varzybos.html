@@ -15,6 +15,45 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        /* Medal styles */
+        .medals {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .medal {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+        }
+        
+        .medal.gold {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-color: #f59e0b;
+            color: #92400e;
+        }
+        
+        .medal.silver {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            border-color: #9ca3af;
+            color: #374151;
+        }
+        
+        .medal.bronze {
+            background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%);
+            border-color: #ea580c;
+            color: #9a3412;
+        }
+    </style>
 </head>
 
 <body>
@@ -56,17 +95,11 @@
     <section class="section section-alt" style="padding-top: 2rem;">
         <div class="container">
             <h2 class="mb-3">📅 Artėjančios varžybos</h2>
-
-            <div class="schedule">
+            <div id="upcoming-events" class="schedule">
+                <!-- Events loaded dynamically from JSON -->
                 <div class="schedule-item animate-on-scroll">
                     <div class="schedule-content text-center" style="padding: 3rem;">
-                        <span class="card-badge upcoming"
-                            style="font-size: 1rem; padding: 0.5rem 1rem; margin-bottom: 1rem;">ℹ️ Informacija
-                            ruošiama</span>
-                        <h3 class="schedule-title">Artimiausių varžybų informacija bus paskelbta netrukus</h3>
-                        <p style="color: var(--color-text-muted); margin-top: 1rem;">
-                            Sekite naujienas mūsų svetainėje.
-                        </p>
+                        <span class="card-badge upcoming" style="font-size: 1rem; padding: 0.5rem 1rem; margin-bottom: 1rem;">⏳ Kraunama...</span>
                     </div>
                 </div>
             </div>
@@ -77,65 +110,11 @@
     <section class="section">
         <div class="container">
             <h2 class="mb-3">🥇 Praėjusios varžybos ir rezultatai</h2>
-
-            <div class="schedule">
-                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
-                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
-                        <span class="schedule-day">13</span>
-                        <span class="schedule-month">GRU</span>
-                    </div>
-                    <div class="schedule-content">
-                        <span class="card-badge past">Praėjo</span>
-                        <h3 class="schedule-title">Lietuvos neįgaliųjų biliardo čempionatas</h3>
-                        <div class="schedule-meta">
-                            <span>📍 Kaunas</span>
-                            <span>📅 2025.12.13</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
-                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
-                        <span class="schedule-day">09</span>
-                        <span class="schedule-month">LAP</span>
-                    </div>
-                    <div class="schedule-content">
-                        <span class="card-badge past">Praėjo</span>
-                        <h3 class="schedule-title">Lietuvos neįgaliųjų šaudymo sporto čempionatas</h3>
-                        <div class="schedule-meta">
-                            <span>📍 Alytus</span>
-                            <span>📅 2025.11.09</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
-                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
-                        <span class="schedule-day">08</span>
-                        <span class="schedule-month">LAP</span>
-                    </div>
-                    <div class="schedule-content">
-                        <span class="card-badge past">Praėjo</span>
-                        <h3 class="schedule-title">Lithuania WSPS Grand prix</h3>
-                        <div class="schedule-meta">
-                            <span>📍 Alytus</span>
-                            <span>📅 2025.11.08</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="schedule-item animate-on-scroll" style="border-left-color: var(--color-secondary);">
-                    <div class="schedule-date" style="background: var(--color-secondary); color: var(--color-text);">
-                        <span class="schedule-day">05</span>
-                        <span class="schedule-month">BAL</span>
-                    </div>
-                    <div class="schedule-content">
-                        <span class="card-badge past">Praėjo</span>
-                        <h3 class="schedule-title">Bočios čempionatas</h3>
-                        <div class="schedule-meta">
-                            <span>📍 Alytus</span>
-                            <span>📅 2025.04.05</span>
-                        </div>
+            <div id="past-events" class="schedule">
+                <!-- Events loaded dynamically from JSON -->
+                <div class="schedule-item animate-on-scroll">
+                    <div class="schedule-content text-center" style="padding: 3rem;">
+                        <span class="card-badge past" style="font-size: 1rem; padding: 0.5rem 1rem; margin-bottom: 1rem;">⏳ Kraunama...</span>
                     </div>
                 </div>
             </div>
@@ -203,6 +182,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/varzybos.js"></script>
 </body>
 
 </html>

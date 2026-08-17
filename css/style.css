@@ -65,6 +65,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Kad lipni antraštė neuždengtų sekcijos, į kurią nuveda nuoroda */
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
 body {
   font-family: var(--font-main);
   background: var(--color-bg);
